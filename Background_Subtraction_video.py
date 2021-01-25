@@ -80,8 +80,8 @@ def remove_bg(vid, avg_type='mean'):
         threshold = filters.threshold_otsu(change_map)
         
         ## Higher intensity in change -> foreground
-        fg_mask = change_map >= val
-        bg_mask = change_map < val
+        fg_mask = change_map >= threshold
+        bg_mask = change_map < threshold
         
         ## Mask the image 
         I[:,:,0] = I[:,:,0]*fg_mask + bg_mask*255
