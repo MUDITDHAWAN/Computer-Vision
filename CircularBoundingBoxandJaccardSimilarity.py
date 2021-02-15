@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random as rng
 
 ## Read the image 
-im = cv.imread('./Project1.png')
+im = cv.imread('./data/Project1.png')
 
 ## Convert image into BW if not
 imgray = cv.cvtColor(im, cv.COLOR_BGR2GRAY)

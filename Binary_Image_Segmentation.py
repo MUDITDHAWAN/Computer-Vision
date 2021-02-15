@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from queue import Queue
 
-img_dir = './Project1.png'
+img_dir = './data/Project1.png'
 
 ## Load image and display
 image = Image.open(img_dir)

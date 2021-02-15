@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-img_dir = './straw.png'
+img_dir = './data/straw.png'
 
 ## Load image and display
 image = Image.open(img_dir)

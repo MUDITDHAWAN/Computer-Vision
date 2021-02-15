@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math 
 
-img_dir = './dog-1020790_960_720.jpg'
+img_dir = '.data//dog-1020790_960_720.jpg'
 
 image = Image.open(img_dir)
 

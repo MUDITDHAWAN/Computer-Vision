@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
 
-img_dir = './dog2.png'
+img_dir = './data/dog2.png'
 
 ## Load image and display
 image = Image.open(img_dir)

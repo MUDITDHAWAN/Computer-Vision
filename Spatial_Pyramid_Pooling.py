@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-img_dir = './Blue_Winged_Warbler_0078_161889.jpg'
+img_dir = './data/Blue_Winged_Warbler_0078_161889.jpg'
 
 image = Image.open(img_dir)
 

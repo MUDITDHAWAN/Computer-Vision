@@ -8,7 +8,7 @@ from PIL import Image
 
 
 ## Read the video file
-cap = cv2.VideoCapture('denis_walk.avi')
+cap = cv2.VideoCapture('./data/denis_walk.avi')
 
 ## Dimensions, framecount of the video
 frameCount = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
